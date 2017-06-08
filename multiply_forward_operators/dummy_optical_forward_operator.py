@@ -1,4 +1,4 @@
-class optical_forward_operator:
+class DummyOpticalForwardOperator:
 
     def __init__(self):
         print ('Creating an optical forward operator')

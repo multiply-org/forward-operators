@@ -1,2 +1,0 @@
-from optical_forward_operator import optical_forward_operator
-from sar_forward_operator import sar_forward_operator
