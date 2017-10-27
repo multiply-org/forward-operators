@@ -18,14 +18,13 @@ install:
   # This next line is needed to deal with GDAL on 3.6
   - conda config --add channels conda-forge
   - conda info -a
-  - conda create -q -n test python=$TRAVIS_PYTHON_VERSION numpy pytest pytest-cov coverage sphinx nose
+  - conda create -q -n test python=$TRAVIS_PYTHON_VERSION numpy scipy pytest pytest-cov coverage sphinx nose
   - source activate test
   - pip install -U codecov
   - python setup.py install
-  
+
 script:
   - pytest
 
 after_success:
   - coveralls
-
