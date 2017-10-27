@@ -2,16 +2,14 @@
 import os
 import sys
 
-import pytest
-from distutils import dir_util
-
 import numpy as np
 
+import pytest
 from scipy.optimize import approx_fprime
+
 
 myPath = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, myPath + '/../')
-print (sys.path)
 
 from multiply_forward_operators import sar_observation_operator
 
