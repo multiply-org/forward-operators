@@ -76,6 +76,4 @@ def test_water_cloud_bs_vh_array():
     x = np.array([[0.5, 1.1], [0.5, 1.1], [0.5, 1.1]])
     polarisation = "VH"
     sigma, dsigma = sar_observation_operator(x, polarisation)
-    print x
-    print sigma
     assert(np.allclose(sigma, np.array([1.087, 1.087, 1.087]), atol=1.e-3))
