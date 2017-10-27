@@ -35,7 +35,7 @@ def sar_observation_operator(x, polarisation):
         x[:, 1]*np.exp(-2*mu*A2*x[:, 0])
     grad = x*0
     n_elems = x.shape[0]
-    for i in xrange(n_elems):
+    for i in range(n_elems):
         grad[i, 0] = A1*(1 - np.exp(-2*mu*A2*x[i, 0])) + \
             2*A1*A2*mu*x[i, 0]*np.exp(-2*mu*A2*x[i, 0]) - \
             2*A2*mu*x[i, 1]*np.exp(-2*mu*A2*x[i, 0])
