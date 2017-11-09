@@ -1,2 +1,3 @@
 from .dummy_optical_forward_operator import DummyOpticalForwardOperator
 from .dummy_sar_forward_operator import DummySARForwardOperator
+from .sar_forward_model import sar_observation_operator
