@@ -17,10 +17,8 @@ The python code for the microwave forward operator is implemented in "sar_forwar
 # References
 
 ATTEMA, E. P. W. & ULABY, F. T. 1978. Vegetation modeled as a water cloud. Radio Science, 13, 357- 364.
+
 DABROWSKA-ZIELINSKA, K., INOUE, Y., KOWALIK, W. & GRUSZCZYNSKA, M. 2007. Inferring the effect
 of plant and soil variables on C- and L-band SAR backscatter over agricultural fields, based on model analysis. Advances in Space Research, 39, 139-148.
-KUMAR, K., HARI PRASAD, K. S. & ARORA, M. K. 2012. Estimation of water cloud model vegetation parameters using a genetic algorithm. Hydrological Sciences Journal, 57, 776-789.
-KWEON, S.-K. & OH, Y. 2015. A modified water-cloud model with leaf angle parameters for microwave backscattering from agricultural fields. IEEE Transactions on Geoscience and Remote Sensing, 53, 2802-2809.
-PREVOT, L., DECHAMBRE, M., TACONET, O., VIDAL-MADJAR, D., NORMAND, M. & GALLEJ, S. 1993.
-Estimating the characteristics of vegetation canopies with airborne radar measurements.
-International Journal of Remote Sensing, 14, 2803-2818.
+
+
