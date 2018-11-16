@@ -1,2 +1,2 @@
 sphinxcontrib-bibtex
-very_good_setuptools_git_version
+very-good-setuptools-git-version
