@@ -75,7 +75,7 @@ copyright = u'2018, Thomas Weiß'
 try:
     from multiply_forward_operators import __version__ as version
 except ImportError:
-    version = 'unknown'
+    version = '0.0'
 
 # The full version, including alpha/beta/rc tags.
 # release = __version__  # Is set by calling `setup.py docs`
