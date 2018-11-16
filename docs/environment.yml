@@ -4,5 +4,5 @@ channels:
 
 dependencies:
   - python=3.6*
-  - -c jgomezdans prosail
+  - jgomezdans prosail
 
