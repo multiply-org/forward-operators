@@ -14,7 +14,6 @@ forward-operators
     :maxdepth: 2
     :caption: anything else
 
-    License <license>
     Authors <authors>
     Change log <changes>
 
