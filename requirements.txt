@@ -1,3 +1,2 @@
 sphinxcontrib-bibtex
-prosail
 very_good_setuptools_git_version
