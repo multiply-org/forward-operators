@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.6*
+  - pip
+  - pip:
+    - git+https://github.com/jgomezdans/prosail
+
+
