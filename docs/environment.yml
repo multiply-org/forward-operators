@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.6*
   - pip
+  - very-good-setuptools-git-version
   - pip:
     - git+https://github.com/jgomezdans/prosail
 
