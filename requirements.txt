@@ -1,3 +1,0 @@
-sphinxcontrib-bibtex
-very-good-setuptools-git-version
-git+https://github.com/jgomezdans/prosail

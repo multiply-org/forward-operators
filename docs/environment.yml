@@ -4,5 +4,10 @@ channels:
 
 dependencies:
   - python=3.6*
-
+  - pip
+  - pip:
+    - git+https://github.com/jgomezdans/prosail
+    - very-good-setuptools-git-version
+    - xarray
+    - sphinxcontrib-bibtex
 
