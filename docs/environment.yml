@@ -7,6 +7,6 @@ dependencies:
   - pip>18
   - pip:
     - git+https://github.com/jgomezdans/prosail
-    - very-good-setuptools-git-version
-    - xarray
+    - install very-good-setuptools-git-version
+    - install xarray
 
