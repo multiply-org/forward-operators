@@ -3,7 +3,7 @@ MULTIPLY forward operator
 
 .. toctree::
     :maxdepth: 2
-    :caption: MULTIPLY forward operator
+    :caption: Documentation
 
     01_Introduction
     02_Installation
@@ -12,7 +12,7 @@ MULTIPLY forward operator
 
 .. toctree::
     :maxdepth: 2
-    :caption: anything else
+    :caption: Anything else
 
     Authors <authors>
     Change log <changes>
