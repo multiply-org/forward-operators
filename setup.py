@@ -8,7 +8,7 @@ except ImportError:
     version = 'unknown'
 
 setup(name='multiply-forward-operators',
-      version=__version__,
+      version=version,
       description='MULTIPLY Forward Operators',
       author='MULTIPLY Team',
       packages=['multiply_forward_operators']
