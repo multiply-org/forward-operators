@@ -16,9 +16,3 @@ MULTIPLY forward operator
 
     Authors <authors>
     Change log <changes>
-
-.. toctree::
-    :hidden:
-    genindex
-    modindex
-
