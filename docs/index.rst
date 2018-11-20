@@ -16,10 +16,6 @@ MULTIPLY forward operator
 
     Authors <authors>
     Change log <changes>
+    genindex
+    modindex
 
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
