@@ -1,4 +1,3 @@
-
 forward-operators
 ==================
 
@@ -17,12 +16,9 @@ forward-operators
     Authors <authors>
     Change log <changes>
 
-
-
 Indices and tables
 ------------------
 
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
