@@ -1,8 +1,9 @@
-forward-operators
-==================
+MULTIPLY forward operator
+=========================
 
 .. toctree::
     :maxdepth: 2
+    :caption: MULTIPLY forward operator
 
     01_Introduction
     02_Installation
