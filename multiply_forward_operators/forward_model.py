@@ -37,6 +37,12 @@ class ForwardModelOperator(metaclass=ABCMeta):
     from biophysical land parameters."""
 
     @abstractmethod
+    def get_description(self) -> str:
+        """
+        :return: A textual description of the forward model.
+        """
+
+    @abstractmethod
     def get_list_of_supported_variables(self) -> List[VariableDescriptor]:
         """Returns a list of descriptions of the parameters supported by this forward model """
         pass
