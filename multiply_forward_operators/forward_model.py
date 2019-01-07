@@ -77,3 +77,29 @@ class ForwardModelOperator(metaclass=ABCMeta):
         if the respective parameter has been set to true.
         """
         pass
+
+    @abstractmethod
+    def init_forward_model(self, metadata: dict):
+        """
+        Prepares the forward model for the creation of band-specific observation operators.
+        :param metadata: A dictionary which holds values that can be considered during the creation of the obervation
+        operator. Usual values are observation and solar angles (sza, saa, vza, vaa).
+        """
+        pass
+
+    @abstractmethod
+    def create_observation_operator_2(self, mask: np.array, state_mask: np.array, x_prev: np.array, band: int,
+                                      calc_hess: bool) -> Tuple[np.array, csr_matrix, Optional[np.array]]:
+        """
+        Creates an observation operator.
+        :param mask: A boolean array stating whether valid observations exist for the pixel.
+        :param state_mask: A boolean array stating whether values shall be retrieved for the specific pixel.
+        :param x_prev: An estimate of the parameter values for every pixel that is not masked out by the state mask
+        :param band: An index stating which band the observation operator shall work with.
+        :param calc_hess: If true, a hessian matrix is returned as third parameter.
+        :return: A tuple consisting of two to three elements: First is a numpy array with state vector estimates for
+        every pixel of the specified band which has not been masked out. Second is a sparse matrix with matrices with
+        partial derivatives for each pixel that has not been masked out. Third is a hessian matrix. It is only returned
+        if the respective parameter has been set to true.
+        """
+        pass
